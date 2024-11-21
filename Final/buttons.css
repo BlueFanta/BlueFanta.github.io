@@ -1,0 +1,262 @@
+.button-container {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center; /* Centers the buttons vertically */
+  gap: 10px; /* Adds space between buttons */
+  padding: 10px; /* Adds some space around the container */
+}
+
+.button1 {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/youtubebutton.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .button1:hover {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/ytbutton-hover.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .button1:active {
+    color: blue;
+    background-color: transparent; 
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url('images/ytclick.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .button2 {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/instagrambutton.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .button2:hover {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/instagrambutton-hover.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .button2:active {
+    color: blue;
+    background-color: transparent; 
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/Instagramclick.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .button3 {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/twitterbutton.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .button3:hover {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/twitterbutton-hover.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .button3:active {
+    color: blue;
+    background-color: transparent; 
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url('images/twitterclick.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .button4 {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/blueskybutton.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .button4:hover {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/blueskybutton-hover.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .button4:active {
+    color: blue;
+    background-color: transparent; 
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url('images/blueskyclick.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .button5 {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/itchiobutton.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+  
+  .button5:hover {
+    color: blue;
+    background-color: transparent;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url("images/itchiobutton-hover.png");
+    background-size: contain; /* Make the image fit within button dimensions */
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  .button5:active {
+    color: blue;
+    background-color: transparent; 
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-image: url('images/Itchioclick.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 100px; /* Set to image width */
+    height: 100px; /* Set to image height */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }

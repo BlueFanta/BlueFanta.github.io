@@ -1,0 +1,214 @@
+/* bg color */
+body {
+  background-color: white;
+}
+
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Nav bar color and font */
+.topnav {
+  background: linear-gradient(to right, #03d9ff, #ff03f2);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: "Tiny5", sans-serif; 
+}
+/* nav bar link colors */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* hover color */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* active link color */
+.topnav a.active {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Image Aligment */
+.GamePictures {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Game1Text h1 { 
+    font-size: 30px;
+    font-family: Roboto Mono; 
+    margin-top: 1px;
+    margin-left: 5px;
+    color: #03d9ff;
+  }
+
+.GamePicture2 {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    margin-top: 30px;
+}
+
+.Game2Text h1 { 
+    font-size: 30px;
+    font-family: Roboto Mono; 
+    margin-top: 1px;
+    margin-left: 5px;
+    color: #ff03f2;
+  }
+
+.AboutPage{
+    font-size: 30px;
+    font-family: "Tiny5", sans-serif;
+    color:#03d9ff;
+    text-align: center;
+}
+
+.aboutol{
+  font-size: 30px;
+    font-family: "Tiny5", sans-serif;
+    color:#000000;
+    text-align: center
+}
+
+.aboutimage{
+  margin-top: 95px;
+  margin-bottom: 100px;
+}
+
+.blogmain {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  gap: 20px; /* Space between items */
+}
+
+.stacked-blog {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align items */
+  gap: 10px; /* Space between image and headline */
+}
+
+.blogheadlines {
+  text-align: center;
+  color: #03d9ff; /*color */
+  font-family: Roboto Mono;
+  font-size: 24px; 
+}
+
+.blogheadlines2 {
+  text-align: center;
+  color: #ff03f2; /*color */
+  font-family: Roboto Mono;
+  font-size: 24px; 
+}
+
+.contactpage {
+  font-size: 30px;
+  font-family: "Tiny5", sans-serif;
+  color: #03d9ff;
+  text-align: center; /* Centers the heading */
+  margin-bottom: 20px; /* Space between the heading and the form */
+}
+
+.bodytext {
+    font-family: Roboto Mono;
+    color: black;
+}
+
+ol {
+  list-style-position: inside; /* Moves the numbers inside the list item */
+  margin-left: 0; /* Removes left margin of the list */
+  padding-left: 10px; /* Adjust this value to fine-tune spacing */
+}
+
+ul {
+  list-style-position: inside; /* Moves the numbers inside the list item */
+  margin-left: 0; /* Removes left margin of the list */
+  padding-left: 10px; /* Adjust this value to fine-tune spacing */
+}
+
+li {
+  padding-left: 0; /* Removes extra space between numbers and text */
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background: linear-gradient(to right, #03d9ff, #ff03f2);
+  color: #fff;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive Design using Media Queries */
+@media (max-width: 768px) {
+  .GamePictures {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .game-image {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .topnav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .topnav a {
+      padding: 12px;
+      font-size: 1.2em;
+  }
+
+  .bodytext {
+      font-size: 1em;
+      padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .GamePictures {
+      margin: 10px 0;
+  }
+
+  .topnav a {
+      padding: 15px;
+      font-size: 1.5em;
+  }
+}
