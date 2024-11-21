@@ -12,7 +12,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/youtubebutton.png");
+    background-image: url("youtubebutton.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
