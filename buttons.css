@@ -12,7 +12,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("youtubebutton.png");
+    background-image: url("Images/youtubebutton.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -29,7 +29,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/ytbutton-hover.png");
+    background-image: url("Images/ytbutton-hover.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -46,7 +46,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url('images/ytclick.png');
+    background-image: url('Images/ytclick.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,7 +63,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/instagrambutton.png");
+    background-image: url("Images/instagrambutton.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -80,7 +80,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/instagrambutton-hover.png");
+    background-image: url("Images/instagrambutton-hover.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -97,7 +97,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/Instagramclick.png");
+    background-image: url("Images/Instagramclick.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,7 +114,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/twitterbutton.png");
+    background-image: url("Images/twitterbutton.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -131,7 +131,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/twitterbutton-hover.png");
+    background-image: url("Images/twitterbutton-hover.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +148,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url('images/twitterclick.png');
+    background-image: url('Images/twitterclick.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -165,7 +165,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/blueskybutton.png");
+    background-image: url("Images/blueskybutton.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -182,7 +182,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/blueskybutton-hover.png");
+    background-image: url("Images/blueskybutton-hover.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -199,7 +199,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url('images/blueskyclick.png');
+    background-image: url('Images/blueskyclick.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -216,7 +216,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/itchiobutton.png");
+    background-image: url("Images/itchiobutton.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -233,7 +233,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url("images/itchiobutton-hover.png");
+    background-image: url("Images/itchiobutton-hover.png");
     background-size: contain; /* Make the image fit within button dimensions */
     background-repeat: no-repeat;
     background-position: center;
@@ -250,7 +250,7 @@
     text-indent: -9999px;
     overflow: hidden;
     white-space: nowrap;
-    background-image: url('images/Itchioclick.png');
+    background-image: url('Images/Itchioclick.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
