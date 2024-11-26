@@ -9,51 +9,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tiny5&display=swap" rel="stylesheet">
-    
-
 </head>
 <body>
     <header>
-        <nav class="topnav">
-            <a href="index.html">HOME</a>
-            <a href="Games.html">GAMES</a>
-            <a href="About.html">ABOUT</a>
-            <a class="active" href="Blog.html">BLOG</a>
-            <a href="Contact.html">CONTACT</a>
-        </nav>
+        <div class="topnav">
+            <button class="hamburger" aria-label="Toggle navigation">
+              ☰
+            </button>
+            <div class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="Games.html">GAMES</a>
+                <a href="About.html">ABOUT</a>
+                <a class="active" href="Blog.html">BLOG</a>
+                <a href="Contact.html">CONTACT</a>
+            </div>
+          </div>
     </header>
     
     <div class = "blogmain">
         <div class="stacked-blog">
-            <img src="Images/PlaceholderImage.png" alt="blog image 1" width="480" />
+            <a href="https://www.google.com/" target="_blank"> <img src="Images/PlaceholderImage.png" alt="blog image 1" /> </a>
             <h1 class="blogheadlines">Blog 1 </h1>
         </div>
         <div class="stacked-blog">
-            <img src="Images/PlaceholderImage.png" alt="blog image 2" width="480" />
+            <img src="Images/PlaceholderImage.png" alt="blog image 2"  />
             <h1 class="blogheadlines2">Blog 2</h1>
         </div>
         <div class="stacked-blog">
-            <img src="Images/PlaceholderImage.png" alt="blog image 3" width="480" />
+            <img src="Images/PlaceholderImage.png" alt="blog image 3"  />
             <h1 class="blogheadlines">Blog 3</h1>
         </div>
         <div class="stacked-blog">
-            <img src="Images/PlaceholderImage.png" alt="blog image 2" width="480" />
+            <img src="Images/PlaceholderImage.png" alt="blog image 2"  />
             <h1 class="blogheadlines2">Blog 4</h1>
         </div>
         <div class="stacked-blog">
-            <img src="Images/PlaceholderImage.png" alt="blog image 3" width="480" />
+            <img src="Images/PlaceholderImage.png" alt="blog image 3"  />
             <h1 class="blogheadlines">Blog 5</h1>
         </div>
         <div class="stacked-blog">
-            <img src="Images/PlaceholderImage.png" alt="blog image 2" width="480" />
+            <img src="Images/PlaceholderImage.png" alt="blog image 2"  />
             <h1 class="blogheadlines2">Blog 6</h1>
         </div>
-
-
-
     </div>
+
+    <script>
+        // JavaScript to toggle the menu
+        document.addEventListener("DOMContentLoaded", () => {
+          const hamburger = document.querySelector(".hamburger");
+          const navLinks = document.querySelector(".nav-links");
+    
+          hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+          });
+        });
+    </script>
 </body>
