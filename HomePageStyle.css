@@ -111,3 +111,63 @@ body {
       padding: 0.5em;
   }
 }
+
+/* Hide the nav links by default on small screens */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: #84848400;
+  width: 100%;
+  text-align: center;
+}
+
+/* Show nav links on larger screens */
+@media (min-width: 769px) {
+  .nav-links {
+    display: flex; /* Show the links as flex items */
+    flex-direction: row; /* Arrange links horizontally */
+    justify-content: center; /* Center the links */
+    width: auto; /* Ensure they take the correct width */
+  }
+
+  .hamburger {
+    display: none; /* Hide the hamburger icon on larger screens */
+  }
+}
+
+/* Show links when active (for mobile view) */
+.nav-links.active {
+  display: flex;
+}
+
+/* Style the hamburger button */
+.hamburger {
+  display: none; /* Hide by default */
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Display hamburger icon on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show the hamburger button on small screens */
+  }
+
+  .topnav {
+    flex-direction: column; /* Stack the nav items vertically */
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
