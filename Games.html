@@ -9,24 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tiny5&display=swap" rel="stylesheet">
-    
-
 </head>
 <body>
     <header>
-        <nav class="topnav">
-            <div id="nav-links" class="nav-links">
+        <div class="topnav">
+            <button class="hamburger" aria-label="Toggle navigation">
+              ☰
+            </button>
+            <div class="nav-links">
                 <a href="index.html">HOME</a>
                 <a class="active" href="Games.html">GAMES</a>
                 <a href="About.html">ABOUT</a>
                 <a href="Blog.html">BLOG</a>
                 <a href="Contact.html">CONTACT</a>
             </div>
-        </nav>
+          </div>
     </header>
 
     <div class="GamePictures"> 
@@ -41,7 +41,6 @@
         </div>
     </div>
 
-    
     <div class="GamePictures">
         <img src="Images/MegaManETankCatch.png" alt="Mega Man E-Tank Catch game" width="300" />
         <div class="Game2Text">
@@ -74,4 +73,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        // JavaScript to toggle the menu
+        document.addEventListener("DOMContentLoaded", () => {
+          const hamburger = document.querySelector(".hamburger");
+          const navLinks = document.querySelector(".nav-links");
+    
+          hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+          });
+        });
+    </script>
 </body>
