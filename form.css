@@ -69,23 +69,20 @@ body {
 
 @media (max-width: 768px) {
     .form-container {
-        padding: 15px;
+        padding: 0.5rem; /* Reduce padding for smaller screens */
+    }
+
+    label, input, textarea, button {
+        font-size: 0.9rem; /* Slightly reduce font size */
     }
 }
 
 @media (max-width: 480px) {
     .form-container {
-        padding: 10px;
+        padding: 0.25rem; /* Further reduce padding on very small screens */
     }
 
-    .form-container label {
-        font-size: 14px;
-    }
-
-    .form-container input,
-    .form-container textarea,
-    .form-container button {
-        font-size: 14px;
-        padding: 8px;
+    button {
+        padding: 0.6rem; /* Adjust button size for smaller screens */
     }
 }
