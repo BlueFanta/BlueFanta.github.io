@@ -10,24 +10,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tiny5&display=swap" rel="stylesheet">
-    
-    
-
 </head>
 <body>
-    <header>
-        <nav class="topnav">
+  <header>
+    <div class="topnav">
+        <button class="hamburger" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <div class="nav-links">
             <a href="index.html">HOME</a>
             <a href="Games.html">GAMES</a>
             <a class="active" href="About.html">ABOUT</a>
             <a href="Blog.html">BLOG</a>
             <a href="Contact.html">CONTACT</a>
-        </nav>
-    </header>
+        </div>
+      </div>
+  </header>
     
     <div class="AboutPage">
         <h1> Who is CrystalByte</h1>
@@ -57,7 +58,6 @@
         </ol>
       </div>
     </div>
-
         <div class="aboutimage">
             <img src="Images/LogoForWebColor.png" alt="CrystalByte Logo" width="650"/>
         </div>
@@ -78,6 +78,18 @@
             <a href="https://www.itch.io" target="_blank" class="button-link">
               <button class="button5">Itchio</button>
             </a>
-          </div>
+        </div>
     </div>
+
+    <script>
+      // JavaScript to toggle the menu
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
+  
+        hamburger.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+        });
+      });
+      </script>
 </body>
